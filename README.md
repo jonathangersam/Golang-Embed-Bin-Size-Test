@@ -4,9 +4,9 @@ WHY
 * Demonstration purposes.
 
 WHAT
-* Tests whether an embed used only in testing will increase final bin size.
+* Tests whether an embed not used in main will increase final bin size.
 
-HOW TO USE
+USAGE
 1. run `./build.sh`
 2. run `ls -l` to see the output file sizes. 
 * `main1` imports a package that references a large embed, but never executes it
